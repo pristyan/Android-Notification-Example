@@ -20,7 +20,6 @@ import org.jetbrains.anko.toast
 class ChatNotificationReceiver : BroadcastReceiver() {
 
     companion object {
-        private const val TAG = "NotificationReceiver"
         private const val DISMISS_DELAY = 2000L
     }
 
